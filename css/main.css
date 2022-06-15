@@ -176,6 +176,40 @@ table{
 th{
     text-align: left;
 }
+/*Main*/
+
+.container_grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  margin: 0 auto;
+  width: 960px;
+}
+
+.rideCard{
+  border: black solid 1px;
+  border-radius: 10px;
+  height: 270px;
+  padding: 10px;
+}
+
+.Large{
+  grid-column: span 2;
+}
+
+.rideCard img{
+  max-width: 150px;
+
+}
+.theme{
+  font-weight: lighter;
+}
+
+.title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
 
 
 
